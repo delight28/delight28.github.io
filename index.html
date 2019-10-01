@@ -2,37 +2,137 @@
 <html>
 <head>
  <title>for-korea welcome</title>
+ <meta charset="utf-8">
+ <meta name="naver-site-verification" content="c30b7fd786b3dcf7fe6b46214c223117ef257e34"/>
+
+ <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KDKJMN1Q2S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-KDKJMN1Q2S');
+</script>
+
+  <link rel="stylesheet" href="style.css">
+  <style>
+  body {
+    background: linear-gradient(-45deg, rgba(255, 0, 0, 0.7), rgba(0, 0, 255, .7)) fixed;
+    /* url('koreA.jpg') fixed;*/
+  background-size: cover;
+
+
+    margin: 0;
+  }
+  </style>
+  <script>
+  var Links = {
+    setColor:function(color){
+      var alist = document.querySelectorAll('a');
+      var i = 0;
+      while(i < alist.length){
+        alist[i].style.color = color;
+        i = i + 1;
+      }
+    }
+  }
+
+  var Body = {
+    setColor:function(color){
+      document.querySelector('body').style.color = color;
+    }, //객체 프로퍼티 구분할때 ,를 찍는다.
+  setBackgroundColor:function(color){
+    document.querySelector('body').style.backgroundColor = color;
+    }
+  }
+  function nightDayHandler(self){
+    var target = document.querySelector('body');
+    if(self.value === 'night'){
+      Body.setBackgroundColor('black');
+      Body.setColor('white');
+      self.value = 'day';
+
+      Links.setColor('powderblue');
+    } else {
+      Body.setBackgroundColor('white');
+      Body.setColor('black');
+      self.value = 'night';
+
+      Links.setColor('blue');
+    }
+  }
+  </script>
 </head>
 <body>
-  <h1> <a href="index.html">한국의 독립을 위하여</a> </h1>
-  <p> 이 사이트는 한국의 숨겨진 역사, 소외계층, 부조리를 알리고
-  한국이 그 아픔으로부터 독립하여 아름다운 나라가 되길 바라며 제작되었습니다.</p>
+  <input type="button" value="night" onclick="
+     nightDayHandler(this);
+  ">
 
-  <img src = "koreA.jpg" width = 450;>
 
+
+  <h1> <a href="index.html" >한국의 독립을 위하여</a> </h1>
+
+
+  <!--<img src = "koreA.jpg" style="width: 343px;
+  height: 372px;" > 제목에만 뜨게 하고 싶은데..-->
+
+<div id="grid">
     <ol>
-      <li><a href = "1.html">한국의 이야기</a></li>
-      <li><a href = "2.html">세계 속 한국의 이야기</a></li>
-      <li><a href = "3.html">제작자의 이야기</a></li>
-    <ol>
+        <li><a href = "1.html">한국의 이야기</a></li>
+        <li><a href = "2.html">세계 속 한국의 이야기</a></li>
+        <li><a href = "3.html">제작자의 이야기</a></li>
+    </ol>
 
-  <h2>한국의 이야기</h2>
+  <div id="article">
+    <br>
+    <p> " 이 사이트를 통해 한국의 숨겨진 역사, 소외계층, 부조리가 알려지고
+    한국이 그 아픔으로부터 독립하여 아름다운 나라가 되길 바랍니다."</p>
 
-   <p>안녕하세요. 한국을 사랑하시는 여러분, 반갑습니다.
-    <br>이 사이트는 제작자의 동아리에서 사이트툴에 의존하는 것이 아닌 HTML로 제작한 것입니다.
-    <br>많이 서툴더라도 이해해주시길 바랍니다!
-    <br>(도움을 주신 egoing님 감사드립니다.)
-    <br> "나는 우리 나라가 세계에서 가장 아름다운 나라가 되기를 원한다.
-          가장 부강한 나라가 되기를 원하는 것은 아니다. 내가 남의 침략에 가슴이 아팠으니, 내 나라가 남을 침략하는 것을 원치 아니한다.
-          우리의 부력은 우리의 생활을 풍족히 할 만하고,
-          우리의 강력은 남의 침략을 막을 만하면 족하다. 오직 한없이 가지고 싶은 것은 높은 문화의 힘이다.
-                                                                   -백범 김구"
-    Everyone who loves Korea! nice to meet you. This site is written in HTML, not relying on site tools.
-    Please understand me if I'm not good at it!
-    <a href = "https://youtu.be/AulHEVz75lY">"What country is Korea?" target="_blank" title="an introductory video of Korea"</a></p>
-        <p>
+    <h2>사이트 제작 목적</h2>
+
+    <p>안녕하세요. 한국을 사랑하시는 여러분, 반갑습니다.
+
+      <br> "나는 우리 나라가 세계에서 가장 아름다운 나라가 되기를 원한다.
+      <br>  가장 부강한 나라가 되기를 원하는 것은 아니다. 내가 남의 침략에 가슴이 아팠으니, 내 나라가 남을 침략하는 것을 원치 아니한다.
+      <br>  우리의 부력은 우리의 생활을 풍족히 할 만하고,
+      <br>  우리의 강력은 남의 침략을 막을 만하면 족하다. 오직 한없이 가지고 싶은 것은 높은 문화의 힘이다.
+                                                                     <br> -백범 김구"
+      <br>
+      Everyone who loves Korea! nice to meet you. This site is written in HTML, not relying on site tools.
+      Please understand me if I'm not good at it!
+      <p>
+      <a href = "https://youtu.be/AulHEVz75lY"
+         target="_blank" title="an introductory video of Korea"> What country is Korea?</a>
+      </p>
+
+      <br>이 사이트는 제작자의 동아리에서 HTML로 제작한 것입니다.
+      <br>많이 서툴더라도 이해해주시길 바랍니다!
 
 
 
+
+        <div id="disqus_thread"></div>
+      <script>
+
+      /**
+      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+      /*
+      var disqus_config = function () {
+      this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+      };
+      */
+      (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = 'https://for-korea.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+      })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      </p>
+   </div>
+</div>
 </body>
 </html>

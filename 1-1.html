@@ -1,26 +1,62 @@
 <!doctype html>
 <html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width" />
 <head>
  <title>for-korean story</title>
+ <script src="colors.js"></script>
 </head>
 <body>
-  <h1><a href="index.html">한국의 독립을 위하여</a> </h1>
+  <h1><a href="index.html" style = "text-decoration: none;">한국의 독립을 위하여</a> </h1>
+  <input type="button" value="night" onclick="
+     nightDayHandler(this);
+  ">
   <p> 이 사이트는 한국의 숨겨진 역사, 소외계층, 부조리를 알리고
   한국이 그 아픔으로부터 독립하여 아름다운 나라가 되길 바라며 제작되었습니다.</p>
 
+  <style>
+    a{
+      color: black;
+
+    }
+  </style>
+
     <ol>
       <li><a href = "1.html">한국의 이야기</a></li>
-      <li><a href = "2.html">세계 속 한국의 이야기</a></li>
+      <li><a href = "2.html" >세계 속 한국의 이야기</a></li>
       <li><a href = "3.html">제작자의 이야기</a></li>
-    <ol>
+    </ol>
 
 
   <h2>한국의 이야기</h2>
-  <p>
+    <ol>
+      <li><a href = "1-1.html" style = "color : red; text-decoration:underline;">"세상을 바꿀 힘은 어디서 나오는가?"</a></li>
+      <li><a href = "2.html">음음음</a></li>
+      <li><a href = "3.html">고민중이에요</a></li>
+    </ol>
 
-  <p>
+      <p>
+        <div id="disqus_thread"></div>
+      <script>
 
-
+      /**
+      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+      /*
+      var disqus_config = function () {
+      this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+      };
+      */
+      (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = 'https://for-korea.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+      })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      </p>
 
 </body>
 </html>
