@@ -12,7 +12,7 @@ var Links = {
 var Body = {
   setColor:function(color){
     document.querySelector('body').style.color = color;
-  }, //객체 프로퍼티 구분할때 ,를 찍는다. 
+  }, //객체 프로퍼티 구분할때 ,를 찍는다.
 setBackgroundColor:function(color){
   document.querySelector('body').style.backgroundColor = color;
   }
