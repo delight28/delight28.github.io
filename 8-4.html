@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width" />
+<head>
+ <meta name="robots" content="index,follow" />
+ <title>for-korea</title>
+ <link rel="stylesheet" href="style2.css">
+ <link rel="stylesheet" href="style.css">
+ <style>
+   body {
+   /*background: linear-gradient(-45deg, rgba(255, 0, 0, 0.7), rgba(0, 0, 255, .7)) fixed;*/
+    background-image: url(koreA.jpg);
+    background-size: cover;
+    margin: 0;
+    text-align: center;
+   }
+
+
+</style>
+<script src="colors.js"></script>
+</head>
+<body>
+  <nav id="topMenu" >
+    <ul>
+       <li class="topMenuLi">
+         <a class="menuLink" href="1.html">한국의 이야기</a>
+         <ul class="submenu">
+            <li><a class="submenuLink longLink" href="1.html" target="_blank" >한국의 독립영웅</a></li>
+            <li><a class="submenuLink longLink" ahref="2.html" target="_blank">한국의 모순</a></li>
+            <li><a class="submenuLink longLink" target="_blank">한국의 소외계층</a></li>
+        </ul>
+      </li>
+      <li>|</li>
+      <li class="topMenuLi">
+          <a class="menuLink" href="2.html" target="_blank">세계 속 한국의 이야기</a>
+          <ul class="submenu">
+              <li><a class="submenuLink" target="_blank">세계 속 독립영웅</a></li>
+              <li><a class="submenuLink" target="_blank">한국과 외국</a></li>
+          </ul>
+      </li>
+      <li>|</li>
+      <li class="topMenuLi">
+          <a class="menuLink" href="3.html">제작자의 이야기</a>
+          <ul class="submenu">
+              <li><a class="submenuLink">VR이야기</a></li>
+              <li><a class="submenuLink">청소년들에게</a></li>
+              <li><a class="submenuLink">하나님의 이야기</a></li>
+          </ul>
+      </li>
+    </ul>
+  </nav>
+
+  <h1> <a href="index.html">한국의 모순</a></h1>
+  <input type="button" value="night" onclick="
+     nightDayHandler(this);
+  ">
+
+ <div id="grid">
+    <ol>
+      <li><a href = "2.html" style = "color : red; text-decoration: none; ">망 중립성1 - 두 얼굴의 네이버</a></li>
+      <li><a href = "2-2.html" text-decoration:underline; >망 중립성2 - 유튜브와 통신사, 속사정</a></li>
+      <li><a href = "2-3.html" text-decoration:underline; >망 중립성3 - 미해결된 악성기사들, 설리의 죽음</a></li>
+
+    </ol>
+    <div id="article">
+      <small><br>제 글은 유튜브 영상의 내용/댓글을 주로 요약하는 형식으로 쓰여져 있느니, 영상 링크를 타고 원작자의 영상을 감상하시길 권합니다.
+      <br>영상을 보셨다면, 추가로 제 글로 읽어주세요! 우울증 환자의 경험담 댓글로 이루어져 '위로' 받으실 수 있으실 것 입니다.</small>
+
+
+      <h2>우울증의 모순</h2>
+
+      <p>
+        <div id="disqus_thread"></div>
+      <script>
+
+      /**
+      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+      /*
+      var disqus_config = function () {
+      this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+      };
+      */
+      (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = 'https://for-korea.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+      })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      </p>
+     </div>
+ </div>
+</body>
+</html>
